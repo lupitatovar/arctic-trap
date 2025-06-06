@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/OpenAstronomy/packaging-guide",
+  "commit": "68d04ab47d8a2332a18d49112f3f86f7005dbd43",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "arctic-trap",
+      "module_name": "arctic_trap",
+      "short_description": "Photometry of TRAPPIST-1 with ARCTIC at APO",
+      "author_name": "Brett Morris",
+      "author_email": "morrisbrettm@gmail.com",
+      "project_url": "https://github.com/bmorris3/arctic-trap",
+      "license": "BSD 3-Clause",
+      "minimum_python_version": "3.11",
+      "use_compiled_extensions": "n",
+      "enable_dynamic_dev_versions": "n",
+      "include_example_code": "n",
+      "include_cruft_update_github_workflow": "y",
+      "_sphinx_theme": "alabaster",
+      "_parent_project": "",
+      "_install_requires": "",
+      "_copy_without_render": [
+        "docs/_templates",
+        "docs/_static",
+        ".github/workflows/sub_package_update.yml"
+      ],
+      "_template": "https://github.com/OpenAstronomy/packaging-guide",
+      "_commit": "68d04ab47d8a2332a18d49112f3f86f7005dbd43"
+    }
+  },
+  "directory": null
+}
