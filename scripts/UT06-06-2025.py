@@ -17,10 +17,10 @@ from arctic_trap import (generate_master_flat_and_dark, photometry, transit_mode
 from pathlib import Path
 
 # Image paths
-dir_path = Path("/Users/bmmorris/data/apo/Q2UW01/UT250606/")
-image_paths = sorted(glob(str(dir_path / Path('obs_10s*.fits'))))
-dark_30s_paths = glob(str(dir_path / Path('arctic_dark_60s.*.fits')))
-night_flat_paths = glob(str(dir_path / Path('dark_sky_flat.*.fits')))
+dir_path = Path("/Users/lupitatovar/apo_observations/T1/Q2UW01/UT250606/")
+image_paths = sorted(glob(str(dir_path / Path('obs/obs_10s*.fits'))))
+dark_30s_paths = glob(str(dir_path / Path('darks/arctic_dark_60s.*.fits')))
+night_flat_paths = glob(str(dir_path / Path('flats/dark_sky_flat.*.fits')))
 master_flat_path = 'outputs/masterflat.fits'
 master_dark_path = 'outputs/masterdark.fits'
 
